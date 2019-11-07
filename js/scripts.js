@@ -49,7 +49,7 @@ AddressBook.prototype.addContact = function (contact) {
 }
 
 // Business Logic for Contacts
-function Contact(firstName, lastName, phoneNumber) {
+function Contact(firstName, lastName, phoneNumber, birthday, phoneNumber, email, street, unitNumber, city, state, ) {
   this.firstName = firstName;
   this.lastName = lastName;
   this.birthday = birthday;
